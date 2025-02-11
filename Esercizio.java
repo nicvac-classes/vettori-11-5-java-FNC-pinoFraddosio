@@ -26,7 +26,6 @@ class Esercizio {
 
         int[] V = new int[N];
 
-        
         for(i = 0; i < N; i++){
             V[i] = 4 + (int)(Math.random() * 7);
             System.out.println(i + "°numero: " + V[i]);
